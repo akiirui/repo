@@ -27,6 +27,7 @@ And add PGP key ([ArchWiki: Adding unofficial keys](https://wiki.archlinux.org/i
 
 | Package | Description |
 | :------ | :---------- |
+| file-roller | Support for Zstandard <sup>[[1](https://gitlab.gnome.org/GNOME/file-roller/blob/master/NEWS)]</sup> (`pacman -S akatsuki/file-roller` to install)|
 | fish-git [<sup>AUR</sup>](https://aur.archlinux.org/packages/fish-git/) | |
 | flat-remix-gnome [<sup>AUR</sup>](https://aur.archlinux.org/packages/flat-remix-gnome/) | |
 | flat-remix-gtk [<sup>AUR</sup>](https://aur.archlinux.org/packages/flat-remix-gtk/) | |
