@@ -27,12 +27,17 @@ And add PGP key ([ArchWiki: Adding unofficial keys](https://wiki.archlinux.org/i
 
 - `file-roller` : Support for Zstandard <sup>[[1](https://gitlab.gnome.org/GNOME/file-roller/blob/master/NEWS)]</sup> (`pacman -S akatsuki/file-roller` to install)
 - `fish-git` [<sup>AUR</sup>](https://aur.archlinux.org/packages/fish-git/)
-- `flat-remix-gnome` [<sup>AUR</sup>](https://aur.archlinux.org/packages/flat-remix-gnome/)
+- `flat-remix-gnome-theme` : Split package, base on [AUR/flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/)
+    - `flat-remix-gnome-theme` : Regular variant
+    - `flat-remix-gnome-theme-dark` : Dark variant
+    - `flat-remix-gnome-theme-darkest` : Darkest variant
+    - `flat-remix-gnome-theme-miami` : Miami variant
+    - `flat-remix-gnome-theme-miami-dark` : Miami Dark variant
 - `flat-remix-gtk-theme` : Split package, base on [AUR/flat-remix-gtk](https://aur.archlinux.org/packages/flat-remix-gtk/)
     - `flat-remix-gtk-theme` : Regular variant
-    - `flat-remix-dark-gtk-theme` : Dark variant
-    - `flat-remix-darker-gtk-theme` : Darker variant
-    - `flat-remix-darkest-gtk-theme` : Darkest variant
+    - `flat-remix-gtk-theme-dark` : Dark variant
+    - `flat-remix-gtk-theme-darker` : Darker variant
+    - `flat-remix-gtk-theme-darkest` : Darkest variant
 - `libass-git` [<sup>AUR</sup>](https://aur.archlinux.org/packages/libass-git/) : Fix mpv select wrong fonts weight
 - `nautilus` : Fix [Hyphen in filename is misleading](https://gitlab.gnome.org/GNOME/nautilus/issues/1177) (`pacman -S akatsuki/natuilus` to install)
 - `rime-data` [<sup>AUR</sup>](https://aur.archlinux.org/packages/rime-data/) : Replace [community/brise](https://www.archlinux.org/packages/community/x86_64/brise/) <sup>out-of-date</sup>
