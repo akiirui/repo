@@ -1,0 +1,65 @@
+# Contributor: Daniel Ruiz de Alegria <daniel@drasite.com>
+# Maintainer: Akatsuki Rui <akiirui@outlook.com>
+
+pkgbase=flat-remix-gtk-theme
+pkgname=(flat-remix-gtk-theme
+        flat-remix-dark-gtk-theme
+        flat-remix-darker-gtk-theme
+        flat-remix-darkest-gtk-theme)
+pkgver=20191108
+pkgrel=1
+pkgdesc="A pretty simple gtk window theme inspired on material design."
+arch=('any')
+url="https://drasite.com/flat-remix-gtk"
+license=('GPL 3.0')
+conflicts=(flat-remix-gtk)
+source=("https://github.com/daniruiz/${_pkgbase}/archive/${pkgver}.tar.gz")
+sha256sums=('f5da7645197e6f4d4a71e1540074ccb648b764e142d2e5ccb4aa055147635b6b')
+_pkgbase=flat-remix-gtk
+_color=('Blue' 'Green' 'Red' 'Yellow')
+
+package_flat-remix-gtk-theme() {
+    pkgdesc="A pretty simple gtk window theme inspired on material design."
+
+    cd "${srcdir}/${_pkgbase}-${pkgver}/"
+    install -d ${pkgdir}/usr/share/themes
+    for color in ${_color[@]};do
+        cp -a Flat-Remix-GTK-${color} ${pkgdir}/usr/share/themes/
+        cp -a Flat-Remix-GTK-${color}-Solid ${pkgdir}/usr/share/themes/
+    done
+}
+
+package_flat-remix-dark-gtk-theme() {
+    pkgdesc="A pretty simple gtk window theme inspired on material design. Dark variant."
+
+    cd "${srcdir}/${_pkgbase}-${pkgver}/"
+    install -d ${pkgdir}/usr/share/themes
+    for color in ${_color[@]};do
+        cp -a Flat-Remix-GTK-${color}-Dark ${pkgdir}/usr/share/themes/
+        cp -a Flat-Remix-GTK-${color}-Dark-Solid ${pkgdir}/usr/share/themes/
+    done
+}
+
+package_flat-remix-darker-gtk-theme() {
+    pkgdesc="A pretty simple gtk window theme inspired on material design. Darker variant."
+
+    cd "${srcdir}/${_pkgbase}-${pkgver}/"
+    install -d ${pkgdir}/usr/share/themes
+    for color in ${_color[@]};do
+        cp -a Flat-Remix-GTK-${color}-Darker ${pkgdir}/usr/share/themes/
+        cp -a Flat-Remix-GTK-${color}-Darker-Solid ${pkgdir}/usr/share/themes/
+    done
+}
+
+package_flat-remix-darkest-gtk-theme() {
+    pkgdesc="A pretty simple gtk window theme inspired on material design. Darkest variant."
+
+    cd "${srcdir}/${_pkgbase}-${pkgver}/"
+    install -d ${pkgdir}/usr/share/themes
+    for color in ${_color[@]};do
+        cp -a Flat-Remix-GTK-${color}-Darkest ${pkgdir}/usr/share/themes/
+        cp -a Flat-Remix-GTK-${color}-Darkest-NoBorder ${pkgdir}/usr/share/themes/
+        cp -a Flat-Remix-GTK-${color}-Darkest-Solid ${pkgdir}/usr/share/themes/
+        cp -a Flat-Remix-GTK-${color}-Darkest-Solid-NoBorder ${pkgdir}/usr/share/themes/
+    done
+}
