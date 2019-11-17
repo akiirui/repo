@@ -28,7 +28,7 @@ And add PGP key ([ArchWiki: Adding unofficial keys](https://wiki.archlinux.org/i
 - `file-roller` : [Support for Zstandard](https://gitlab.gnome.org/GNOME/file-roller/blob/master/NEWS) (`pacman -S akatsuki/file-roller` to install)
 - `fish-git` [<sup>AUR</sup>](https://aur.archlinux.org/packages/fish-git/)
 - `flat-remix-gnome-theme` : Split package, conflicts with [AUR/flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/)
-    - **These packages not change your GDM theme**
+    - **These packages not change your GDM theme**, Have patch to remove **popup-menu border** in `prepare()`.
     - `flat-remix-gnome-theme` : Regular variant
     - `flat-remix-gnome-theme-dark` : Dark variant
     - `flat-remix-gnome-theme-darkest` : Darkest variant
