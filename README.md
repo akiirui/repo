@@ -40,6 +40,7 @@ And add PGP key ([ArchWiki: Adding unofficial keys](https://wiki.archlinux.org/i
     - `flat-remix-gtk-theme-darker` : Darker variant
     - `flat-remix-gtk-theme-darkest` : Darkest variant
 - `libass-git` [<sup>AUR</sup>](https://aur.archlinux.org/packages/libass-git/) : Fix mpv select wrong fonts weight
+- `mutter` : [Fix center window position](http://gitlab.gnome.org/GNOME/mutter/merge_requests/962) (`pacman -S akatsuki/mutter` to install)
 - `rime-data` [<sup>AUR</sup>](https://aur.archlinux.org/packages/rime-data/) : Replace [community/brise](https://www.archlinux.org/packages/community/x86_64/brise/) <sup>out-of-date</sup>
 - `transmission-gtk` : [Fix window width](https://github.com/transmission/transmission/pull/1069) (`pacman -S akatsuki/transmission` to install)
 - `ttf-paratype` [<sup>AUR</sup>](https://aur.archlinux.org/packages/ttf-paratype/)
