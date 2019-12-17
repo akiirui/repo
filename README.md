@@ -1,6 +1,6 @@
 # Akii's Unofficial User Repository
 
-This repository include PKGBUILD from Akatsuki maintained and some useful packages.
+This repository include some **AUR packages** and some packages **with custom patches**.
 
 All packages build for `[testing]`, ensure enabled `[testing]`.
 
@@ -8,16 +8,18 @@ All packages build for `[testing]`, ensure enabled `[testing]`.
 
 ### Usage
 
-Add repo to your pacman.conf
+Add repo to your `pacman.conf`:
 
 ```
 [akatsuki]
 Server = https://repo.akii.ml/$arch
 ```
 
-And add PGP key ([ArchWiki: Adding unofficial keys](https://wiki.archlinux.org/index.php/Pacman/Package_signing#Adding_unofficial_keys))
+And add PGP key ([ArchWiki: Adding unofficial keys](https://wiki.archlinux.org/index.php/Pacman/Package_signing#Adding_unofficial_keys)):
 
-* [0x327233920548825E](http://pool.sks-keyservers.net/pks/lookup?search=0x327233920548825E&fingerprint=on&op=index)
+* 0x327233920548825E
+
+The PGP key file also can find on [GitHub](https://github.com/akiirui/repo/blob/master/akatsuki.pub) and [Repository](https://repo.akii.ml/akatsuki.pub).
 
 ### Troubleshooting
 
@@ -25,17 +27,17 @@ And add PGP key ([ArchWiki: Adding unofficial keys](https://wiki.archlinux.org/i
 
 ### Packages list
 
-- `fish-git` [<sup>AUR</sup>](https://aur.archlinux.org/packages/fish-git/)
-- `flat-remix-gnome-theme` : Split package, conflicts with [AUR/flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/)
-    - **These packages not change your GDM theme**, Have patch to remove **popup-menu border** in `prepare()`.
-    - `flat-remix-gnome-theme` : Regular variant
-    - `flat-remix-gnome-theme-dark` : Dark variant
-    - `flat-remix-gnome-theme-darkest` : Darkest variant
-    - `flat-remix-gnome-theme-miami` : Miami variant
-    - `flat-remix-gnome-theme-miami-dark` : Miami Dark variant
-- `libass-git` [<sup>AUR</sup>](https://aur.archlinux.org/packages/libass-git/) : Fix mpv select wrong fonts weight
-- `mutter` : [Fix center window position](http://gitlab.gnome.org/GNOME/mutter/merge_requests/962) (`pacman -S akatsuki/mutter` to install)
-- `rime-data` [<sup>AUR</sup>](https://aur.archlinux.org/packages/rime-data/) : Replace [community/brise](https://www.archlinux.org/packages/community/x86_64/brise/) <sup>out-of-date</sup>
-- `transmission-gtk` : [Fix window width](https://github.com/transmission/transmission/pull/1069) (`pacman -S akatsuki/transmission` to install)
-- `ttf-paratype` [<sup>AUR</sup>](https://aur.archlinux.org/packages/ttf-paratype/)
-- `visual-studio-code-bin` [<sup>AUR</sup>](https://aur.archlinux.org/packages/visual-studio-code-bin/)
+- [fish-git](https://aur.archlinux.org/packages/fish-git/) <sup>AUR</sup>
+- [flat-remix-gnome-theme](https://github.com/akiirui/repo/tree/master/flat-remix-gnome-theme) : Split package, conflicts with [flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/) <sup>AUR</sup>
+    - These packages **not change your GDM theme**, Have patch to remove **popup-menu border** in `prepare()`
+    - flat-remix-gnome-theme : Regular variant
+    - flat-remix-gnome-theme-dark : Dark variant
+    - flat-remix-gnome-theme-darkest : Darkest variant
+    - flat-remix-gnome-theme-miami : Miami variant
+    - flat-remix-gnome-theme-miami-dark : Miami Dark variant
+- [libass-git](https://aur.archlinux.org/packages/libass-git/) <sup>AUR</sup> : Fix mpv select wrong fonts weight
+- [mutter](https://github.com/akiirui/repo/tree/master/mutter) : [Fix center window position](http://gitlab.gnome.org/GNOME/mutter/merge_requests/962) (`pacman -S akatsuki/mutter` to install)
+- [rime-data](https://aur.archlinux.org/packages/rime-data/) <sup>AUR</sup> : Replace [community/brise](https://www.archlinux.org/packages/community/x86_64/brise/) <sup>out-of-date</sup>
+- [transmission-gtk](https://github.com/akiirui/repo/tree/master/transmission-gtk) : [Fix window width](https://github.com/transmission/transmission/pull/1069) (`pacman -S akatsuki/transmission` to install)
+- [ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/) <sup>AUR</sup>
+- [visual-studio-code-bin](https://aur.archlinux.org/packages/visual-studio-code-bin/) <sup>AUR</sup>
