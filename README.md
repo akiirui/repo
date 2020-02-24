@@ -35,6 +35,7 @@ The PGP key file also can find on [GitHub](https://github.com/akiirui/repo/blob/
     - flat-remix-gnome-theme-darkest : Darkest variant
     - flat-remix-gnome-theme-miami : Miami variant
     - flat-remix-gnome-theme-miami-dark : Miami Dark variant
+- [ibus](https://github.com/akiirui/repo/tree/master/ibus) : No `python2` and `gtk2` (`pacman -S akatsuki/ibus akatsuki/libibus` to install)
 - [libass-git](https://aur.archlinux.org/packages/libass-git/) <sup>AUR</sup> : Fix mpv select wrong fonts weight
 - [mutter](https://github.com/akiirui/repo/tree/master/mutter) : [Fix center window position](http://gitlab.gnome.org/GNOME/mutter/merge_requests/962) (`pacman -S akatsuki/mutter` to install)
 - [rime-data](https://aur.archlinux.org/packages/rime-data/) <sup>AUR</sup> : Replace [community/brise](https://www.archlinux.org/packages/community/x86_64/brise/) <sup>out-of-date</sup>
