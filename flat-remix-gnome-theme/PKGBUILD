@@ -4,7 +4,7 @@
 pkgbase=flat-remix-gnome-theme
 pkgname=(flat-remix-gnome-theme
          flat-remix-gnome-theme-dark)
-pkgver=20200405
+pkgver=20200415
 pkgrel=1
 pkgdesc="A pretty simple shell theme inspired on material design."
 arch=('any')
@@ -12,9 +12,9 @@ url="https://drasite.com/flat-remix-gnome"
 license=('CC-BY-SA-4.0')
 conflicts=(flat-remix-gnome)
 _pkgbase=flat-remix-gnome
-_commit=c82dd614f3f238a1255908d68b2b8d4a7b988925
+_commit=5fdb1c1953dc747b90c02e3305f78f60b43549d3
 source=("https://github.com/daniruiz/flat-remix-gnome/archive/$_commit/flat-remix-gnome-$_commit.tar.gz")
-sha512sums=('631e2409a7a595ed9581cc618b0054ee24601f6afa1534beb567405d03dd3c0ca48391ce0ac202189c319d322ce50ef26a295753e87b991dd3897c5aa80c3c23')
+sha512sums=('03cb883213cbb61fc8c757c55db661a038916ad35fbbd230eae1498fc49347a326e8303aa3df8dda880ed74685c776ecf380d2360f01cd842e2b234c58f239b3')
 
 
 prepare() {
