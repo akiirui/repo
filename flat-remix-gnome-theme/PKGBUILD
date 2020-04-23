@@ -3,18 +3,21 @@
 
 pkgbase=flat-remix-gnome-theme
 pkgname=(flat-remix-gnome-theme
-         flat-remix-gnome-theme-dark)
-pkgver=20200415
+         flat-remix-gnome-theme-dark
+         flat-remix-gnome-theme-darkest
+         flat-remix-gnome-theme-miami
+         flat-remix-gnome-theme-miami-dark)
+pkgver=20200422
 pkgrel=1
-pkgdesc="A pretty simple shell theme inspired on material design."
+pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design."
 arch=('any')
 url="https://drasite.com/flat-remix-gnome"
 license=('CC-BY-SA-4.0')
 conflicts=(flat-remix-gnome)
 _pkgbase=flat-remix-gnome
-_commit=5fdb1c1953dc747b90c02e3305f78f60b43549d3
+_commit=5e7288d12a369c8fa2876046a3a927d517a92a8a
 source=("https://github.com/daniruiz/flat-remix-gnome/archive/$_commit/flat-remix-gnome-$_commit.tar.gz")
-sha512sums=('03cb883213cbb61fc8c757c55db661a038916ad35fbbd230eae1498fc49347a326e8303aa3df8dda880ed74685c776ecf380d2360f01cd842e2b234c58f239b3')
+sha512sums=('2d8fee6ef04a73cab13a3219aeee67fa2ebad4908799593449f95ffc0327908dd974b995cd799a526120471553a428eeb98b1ebf998c49827607aea4cdc72b12')
 
 
 prepare() {
@@ -23,7 +26,7 @@ prepare() {
 }
 
 package_flat-remix-gnome-theme() {
-    pkgdesc="A pretty simple shell theme inspired on material design."
+    pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design."
 
     cd $_pkgbase-$_commit
     install -d ${pkgdir}/usr/share/themes
@@ -32,10 +35,37 @@ package_flat-remix-gnome-theme() {
 }
 
 package_flat-remix-gnome-theme-dark() {
-    pkgdesc="A pretty simple shell theme inspired on material design. Dark variant."
+    pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design. Dark variant."
 
     cd $_pkgbase-$_commit
     install -d ${pkgdir}/usr/share/themes
     cp -a Flat-Remix-Dark           ${pkgdir}/usr/share/themes/
     cp -a Flat-Remix-Dark-fullPanel ${pkgdir}/usr/share/themes/
+}
+
+package_flat-remix-gnome-theme-darkest() {
+    pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design. Darkest variant."
+
+    cd $_pkgbase-$_commit
+    install -d ${pkgdir}/usr/share/themes
+    cp -a Flat-Remix-Darkest           ${pkgdir}/usr/share/themes/
+    cp -a Flat-Remix-Darkest-fullPanel ${pkgdir}/usr/share/themes/
+}
+
+package_flat-remix-gnome-theme-miami() {
+    pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design. Miami variant."
+
+    cd $_pkgbase-$_commit
+    install -d ${pkgdir}/usr/share/themes
+    cp -a Flat-Remix-Miami           ${pkgdir}/usr/share/themes/
+    cp -a Flat-Remix-Miami-fullPanel ${pkgdir}/usr/share/themes/
+}
+
+package_flat-remix-gnome-theme-miami-dark() {
+    pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design. Miami Dark variant."
+
+    cd $_pkgbase-$_commit
+    install -d ${pkgdir}/usr/share/themes
+    cp -a Flat-Remix-Miami-Dark           ${pkgdir}/usr/share/themes/
+    cp -a Flat-Remix-Miami-Dark-fullPanel ${pkgdir}/usr/share/themes/
 }
