@@ -19,9 +19,11 @@ groups=(gnome)
 install=mutter.install
 _commit=63bf5f11505f980070eb714a52753a64462c5721  # tags/3.36.2^0
 source=("git+https://gitlab.gnome.org/GNOME/mutter.git#commit=$_commit"
-        "0000-center-fix.patch")
+        "0000-core-place.c-fix-center-new-window-position.patch"
+        "0001-keybindings-Use-current-monitor-for-move-to-center.patch")
 sha256sums=('SKIP'
-            'e0d24030a885e810c14cf300cbbefdfeac77e3da37f11d511f0bffc3711675b2')
+            'SKIP'
+            'SKIP')
 
 pkgver() {
   cd $pkgname
@@ -31,8 +33,10 @@ pkgver() {
 prepare() {
   cd $pkgname
 
-  # fix move-to-center are different position with center-new-windows
-  git apply -3 ../0000-center-fix.patch
+  # fix center-new-window have different position with move-to-center
+  git apply -3 ../0000-core-place.c-fix-center-new-window-position.patch
+
+  git apply -3 ../0001-keybindings-Use-current-monitor-for-move-to-center.patch
 }
 
 build() {
