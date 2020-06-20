@@ -28,13 +28,9 @@ The PGP key file also can find on [GitHub](https://github.com/akiirui/repo/blob/
 ### Packages list
 
 - [fish-git](https://aur.archlinux.org/packages/fish-git/) <sup>AUR</sup>
-- [flat-remix-gnome-theme](https://github.com/akiirui/repo/tree/master/flat-remix-gnome-theme) : Split package, conflicts with [flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/) <sup>AUR</sup>
-    - These packages **not change your GDM theme**, Have patch to remove **popup-menu border** in `prepare()`
-    - flat-remix-gnome-theme : Regular variant
-    - flat-remix-gnome-theme-dark : Dark variant
-    - flat-remix-gnome-theme-darkest : Darkest variant
-    - flat-remix-gnome-theme-miami : Miami variant
-    - flat-remix-gnome-theme-miami-dark : Miami Dark variant
+- [flat-remix-gnome-theme](https://github.com/akiirui/repo/tree/master/flat-remix-gnome-theme) : `Blue-Dark-fullPanel` only, conflicts with [flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/) <sup>AUR</sup>
+    - Removed split packages, because upstream created too many color variants
+    - Other color variant, edit PKGBUILD **L28** to you want and `makepkg` by yourself
 - [ibus](https://github.com/akiirui/repo/tree/master/ibus) : No `python2` and `gtk2` (`pacman -S akatsuki/ibus akatsuki/libibus` to install)
 - [libass-git](https://aur.archlinux.org/packages/libass-git/) <sup>AUR</sup> : Fix mpv select wrong fonts weight
 - [mutter](https://github.com/akiirui/repo/tree/master/mutter) : [Fix center window position](http://gitlab.gnome.org/GNOME/mutter/merge_requests/962) (`pacman -S akatsuki/mutter` to install)
