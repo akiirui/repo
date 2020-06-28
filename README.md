@@ -33,6 +33,5 @@ The PGP key file also can find on [GitHub](https://github.com/akiirui/repo/blob/
     - Other color variant, edit PKGBUILD **L28** to you want and `makepkg` by yourself
 - [ibus](https://github.com/akiirui/repo/tree/master/ibus) : No `python2` and `gtk2` (`pacman -S akatsuki/ibus akatsuki/libibus` to install)
 - [libass-git](https://aur.archlinux.org/packages/libass-git/) <sup>AUR</sup> : Fix mpv select wrong fonts weight
-- [mutter](https://github.com/akiirui/repo/tree/master/mutter) : [Fix center window position](http://gitlab.gnome.org/GNOME/mutter/merge_requests/962) (`pacman -S akatsuki/mutter` to install)
 - [ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/) <sup>AUR</sup>
 - [visual-studio-code-bin](https://aur.archlinux.org/packages/visual-studio-code-bin/) <sup>AUR</sup>
