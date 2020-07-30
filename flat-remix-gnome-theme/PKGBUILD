@@ -3,7 +3,7 @@
 
 pkgname=flat-remix-gnome-theme
 pkgver=20200723
-pkgrel=1
+pkgrel=2
 pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design."
 arch=('any')
 url="https://drasite.com/flat-remix-gnome"
@@ -16,7 +16,14 @@ sha512sums=('0405f7e25241d71f95dd029c8e5d38e53e157da09c527d2cf0ed6ea8fed9a311c38
 
 prepare() {
     cd $_pkgbase-$_commit
+    # No ugly border
     sed -i 's/-arrow-border-width: 12px;/-arrow-border-width: 0;/g' Flat-Remix*/gnome-shell/gnome-shell.css
+
+    # After 0f9595442b7899590156335688dfffd2540bd039
+    # No panel padding
+    sed -i -z 's/  padding: 0.1em 0;\n//g' Flat-Remix*fullPanel/gnome-shell/gnome-shell.css
+    # No panel box-shadow
+    sed -i -z 's/  box-shadow: 0 1px 2px black;\n//g' Flat-Remix*/gnome-shell/gnome-shell.css
 }
 
 package_flat-remix-gnome-theme() {
