@@ -27,6 +27,7 @@ The PGP key file also can find on [GitHub](https://github.com/akiirui/repo/blob/
 
 ### Packages list
 
+- [google-chrome](https://aur.archlinux.org/packages/google-chrome/) <sup>AUR</sup>
 - [fish-git](https://aur.archlinux.org/packages/fish-git/) <sup>AUR</sup>
 - [flat-remix-gnome-theme](https://github.com/akiirui/repo/tree/master/flat-remix-gnome-theme) : `Blue-Dark-fullPanel` only, conflicts with [flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/) <sup>AUR</sup>
     - Removed split packages, because upstream created too many color variants
