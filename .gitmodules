@@ -1,0 +1,6 @@
+[submodule "dofi-manager-git"]
+	path = dofi-manager-git
+	url = ssh://aur@aur.archlinux.org/dofi-manager-git.git
+[submodule "mpv-handler-git"]
+	path = mpv-handler-git
+	url = ssh://aur@aur.archlinux.org/mpv-handler-git.git

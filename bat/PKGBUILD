@@ -1,0 +1,43 @@
+# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Contributor: Wesley Moore <wes@wezm.net>
+
+pkgname=bat
+pkgver=0.18.0
+pkgrel=1
+pkgdesc='Cat clone with syntax highlighting and git integration'
+arch=(x86_64)
+url='https://github.com/sharkdp/bat'
+license=(APACHE MIT)
+makedepends=(rust)
+source=("$pkgname-$pkgver.tar.gz::https://github.com/sharkdp/$pkgname/archive/v$pkgver.tar.gz")
+b2sums=('SKIP')
+
+build() {
+  cd "$pkgname-$pkgver"
+
+  cargo build --release --locked
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+
+  install -Dm755 "target/release/$pkgname" "$pkgdir/usr/bin/$pkgname"
+
+  # Package licenses
+  install -Dm644 "LICENSE-APACHE" \
+    "$pkgdir/usr/share/licenses/$pkgname/LICENSE-APACHE"
+  install -Dm644 "LICENSE-MIT" \
+    "$pkgdir/usr/share/licenses/$pkgname/LICENSE-MIT"
+
+  # Package the man page
+  find "target/release" -name bat.1 -type f -exec install -Dm644 {} \
+    "$pkgdir/usr/share/man/man1/bat.1" \;
+
+  # Package the zsh completion file (not in zsh-completions yet)
+  find "target/release" -name bat.zsh -type f -exec install -Dm644 {} \
+    "$pkgdir/usr/share/zsh/site-functions/_bat" \;
+
+  # Package the fish completion file
+  find "target/release" -name bat.fish -type f -exec install -Dm644 {} \
+    "$pkgdir/usr/share/fish/vendor_completions.d/bat.fish" \;
+}

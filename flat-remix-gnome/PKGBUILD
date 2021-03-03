@@ -1,0 +1,30 @@
+# Contributor: Daniel Ruiz de Alegria <daniel@drasite.com>
+# Maintainer: Akatsuki Rui <akiirui@outlook.com>
+
+pkgname=flat-remix-gnome
+pkgver=20210226
+pkgrel=1
+pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design."
+arch=("any")
+url="https://drasite.com/flat-remix-gnome"
+license=("CC-BY-SA-4.0")
+source=("https://github.com/daniruiz/${pkgname}/archive/${pkgver}.tar.gz")
+b2sums=("48a888a4147fc5c3544d9c238884f0997e93b5aa86537255552489f08614500821006a34bfab38c12a8d7ce87e86f309415c63c6dabed56e4aae321fb8993375")
+
+prepare() {
+  cd "${srcdir}/${pkgname}-${pkgver}"
+  # No ugly border
+  sed -i "s/-arrow-border-width: 12px;/-arrow-border-width: 0;/g" Flat-Remix*/gnome-shell/gnome-shell.css
+  # No panel padding
+  sed -i -z "s/  padding: 0.1em 0;\n//g" Flat-Remix*fullPanel/gnome-shell/gnome-shell.css
+  # No panel box-shadow
+  sed -i -z "s/  box-shadow: 0 1px 2px black;\n//g" Flat-Remix*/gnome-shell/gnome-shell.css
+}
+
+package_flat-remix-gnome() {
+  pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design"
+
+  cd "${srcdir}/${pkgname}-${pkgver}"
+  install -d ${pkgdir}/usr/share/themes
+  cp -a Flat-Remix-Blue-Dark-fullPanel ${pkgdir}/usr/share/themes/
+}
