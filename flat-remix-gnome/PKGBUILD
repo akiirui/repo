@@ -2,14 +2,14 @@
 # Maintainer: Akatsuki Rui <akiirui@outlook.com>
 
 pkgname=flat-remix-gnome
-pkgver=20210226
+pkgver=20210309
 pkgrel=1
 pkgdesc="Flat Remix is a GNOME Shell theme inspired by material design."
 arch=("any")
 url="https://drasite.com/flat-remix-gnome"
 license=("CC-BY-SA-4.0")
 source=("https://github.com/daniruiz/${pkgname}/archive/${pkgver}.tar.gz")
-b2sums=("48a888a4147fc5c3544d9c238884f0997e93b5aa86537255552489f08614500821006a34bfab38c12a8d7ce87e86f309415c63c6dabed56e4aae321fb8993375")
+b2sums=("5e3fa3e7bf1ccf6b0db1a58cfe2540d8375f9936db7f1d4813892ee03f55e30e8c0184d6a70d79f89a7e123c5aee3a7125744ac09943cae17a4ae4ef90eda936")
 
 prepare() {
   cd "${srcdir}/${pkgname}-${pkgver}"
