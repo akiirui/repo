@@ -12,7 +12,7 @@ Add repo to your `pacman.conf`:
 
 ```
 [akatsuki]
-Server = https://repo.akii.ml/$arch
+Server = https://repo.akii.art/$arch
 ```
 
 And add PGP key ([ArchWiki: Adding unofficial keys][archwiki]:
