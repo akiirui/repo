@@ -34,6 +34,7 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 
 ### Packages list
 
+- [akwaita-theme-git][akwaita-theme-git] <sup>AUR</sup>
 - [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
 - [fish-git][fish-git] <sup>AUR</sup>
 - [flat-remix-gnome][flat-remix-gnome] : Conflicts [AUR/flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/), `Blue-Dark-fullPanel` only.
@@ -43,6 +44,7 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 - [ttf-paratype][ttf-paratype] : Replace [AUR/ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/), remove fontconfig conf file.
 - [visual-studio-code-bin][visual-studio-code-bin] <sup>AUR</sup>
 
+[akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
 [dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
 [fish-git]: https://aur.archlinux.org/packages/fish-git/
 [flat-remix-gnome]: https://github.com/akiirui/repo/tree/main/flat-remix-gnome

@@ -4,3 +4,6 @@
 [submodule "mpv-handler-git"]
 	path = mpv-handler-git
 	url = ssh://aur@aur.archlinux.org/mpv-handler-git.git
+[submodule "akwaita-theme-git"]
+	path = akwaita-theme-git
+	url = ssh://aur@aur.archlinux.org/akwaita-theme-git.git
