@@ -7,3 +7,6 @@
 [submodule "akwaita-theme-git"]
 	path = akwaita-theme-git
 	url = ssh://aur@aur.archlinux.org/akwaita-theme-git.git
+[submodule "v2ray-domain-list-china"]
+	path = v2ray-domain-list-china
+	url = ssh://aur@aur.archlinux.org/v2ray-domain-list-china.git

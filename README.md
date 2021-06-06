@@ -43,6 +43,7 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 - [mpv-handler-git][mpv-handler-git] <sup>AUR</sup>
 - [paru-git][paru-git] <sup>AUR</sup>
 - [ttf-paratype][ttf-paratype] : Replace [AUR/ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/), remove fontconfig conf file.
+- [v2ray-domain-list-china][v2ray-domain-list-china] <sup>AUR</sup>
 - [visual-studio-code-bin][visual-studio-code-bin] <sup>AUR</sup>
 
 [akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
@@ -54,4 +55,5 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 [mpv-handler-git]: https://aur.archlinux.org/packages/mpv-handler-git/
 [paru-git]: https://aur.archlinux.org/packages/paru-git/
 [ttf-paratype]: https://github.com/akiirui/repo/tree/main/ttf-paratype
+[v2ray-domain-list-china]: https://aur.archlinux.org/packages/v2ray-domain-list-china/
 [visual-studio-code-bin]: https://aur.archlinux.org/packages/visual-studio-code-bin/
