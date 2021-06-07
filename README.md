@@ -35,7 +35,6 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 ### Packages list
 
 - [akwaita-theme-git][akwaita-theme-git] <sup>AUR</sup>
-- [chrome-gnome-shell][chrome-gnome-shell] <sup>AUR</sup>
 - [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
 - [fish-git][fish-git] <sup>AUR</sup>
 - [google-chrome][google-chrome] <sup>AUR</sup>
@@ -46,7 +45,6 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 - [visual-studio-code-bin][visual-studio-code-bin] <sup>AUR</sup>
 
 [akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
-[chrome-gnome-shell]: https://aur.archlinux.org/packages/chrome-gnome-shell/
 [dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
 [fish-git]: https://aur.archlinux.org/packages/fish-git/
 [google-chrome]: https://aur.archlinux.org/packages/google-chrome/
