@@ -38,7 +38,6 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 - [chrome-gnome-shell][chrome-gnome-shell] <sup>AUR</sup>
 - [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
 - [fish-git][fish-git] <sup>AUR</sup>
-- [flat-remix-gnome][flat-remix-gnome] : Conflicts [AUR/flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/), `Blue-Dark-fullPanel` only.
 - [google-chrome][google-chrome] <sup>AUR</sup>
 - [mpv-handler-git][mpv-handler-git] <sup>AUR</sup>
 - [paru-git][paru-git] <sup>AUR</sup>
@@ -50,10 +49,19 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 [chrome-gnome-shell]: https://aur.archlinux.org/packages/chrome-gnome-shell/
 [dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
 [fish-git]: https://aur.archlinux.org/packages/fish-git/
-[flat-remix-gnome]: https://github.com/akiirui/repo/tree/main/flat-remix-gnome
 [google-chrome]: https://aur.archlinux.org/packages/google-chrome/
 [mpv-handler-git]: https://aur.archlinux.org/packages/mpv-handler-git/
 [paru-git]: https://aur.archlinux.org/packages/paru-git/
 [ttf-paratype]: https://github.com/akiirui/repo/tree/main/ttf-paratype
 [v2ray-domain-list-china]: https://aur.archlinux.org/packages/v2ray-domain-list-china/
 [visual-studio-code-bin]: https://aur.archlinux.org/packages/visual-studio-code-bin/
+
+---
+
+### Archived packages
+
+**These packages not update anymore, for archive only.**
+
+- [flat-remix-gnome][flat-remix-gnome]: Replace [AUR/flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/)
+
+[flat-remix-gnome]: https://github.com/akiirui/repo/tree/main/flat-remix-gnome
