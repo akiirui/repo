@@ -32,23 +32,23 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 
 ---
 
-### Packages list
+### Packages
 
 - [akwaita-theme-git][akwaita-theme-git] <sup>AUR</sup>
-- [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
+- [dofi-manager][dofi-manager] <sup>AUR</sup>
 - [fish-git][fish-git] <sup>AUR</sup>
 - [google-chrome][google-chrome] <sup>AUR</sup>
-- [mpv-handler-git][mpv-handler-git] <sup>AUR</sup>
+- [mpv-handler][mpv-handler] <sup>AUR</sup>
 - [paru-git][paru-git] <sup>AUR</sup>
 - [ttf-paratype][ttf-paratype] : Replace [AUR/ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/), remove fontconfig conf file.
 - [v2ray-domain-list-china][v2ray-domain-list-china] <sup>AUR</sup>
 - [visual-studio-code-bin][visual-studio-code-bin] <sup>AUR</sup>
 
 [akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
-[dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
+[dofi-manager]: https://aur.archlinux.org/packages/dofi-manager/
 [fish-git]: https://aur.archlinux.org/packages/fish-git/
 [google-chrome]: https://aur.archlinux.org/packages/google-chrome/
-[mpv-handler-git]: https://aur.archlinux.org/packages/mpv-handler-git/
+[mpv-handler]: https://aur.archlinux.org/packages/mpv-handler/
 [paru-git]: https://aur.archlinux.org/packages/paru-git/
 [ttf-paratype]: https://github.com/akiirui/repo/tree/main/ttf-paratype
 [v2ray-domain-list-china]: https://aur.archlinux.org/packages/v2ray-domain-list-china/
@@ -56,7 +56,19 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 
 ---
 
-### Archived packages
+### Devel Packages
+
+**These packages haven't binary build, for archive only.**
+
+- [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
+- [mpv-handler-git][mpv-handler-git] <sup>AUR</sup>
+
+[dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
+[mpv-handler-git]: https://aur.archlinux.org/packages/mpv-handler-git/
+
+---
+
+### Archived Packages
 
 **These packages not update anymore, for archive only.**
 
