@@ -34,7 +34,6 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 
 ### Packages
 
-- [akwaita-theme-git][akwaita-theme-git] <sup>AUR</sup>
 - [dofi-manager][dofi-manager] <sup>AUR</sup>
 - [fish-git][fish-git] <sup>AUR</sup>
 - [google-chrome][google-chrome] <sup>AUR</sup>
@@ -44,7 +43,6 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 - [v2ray-domain-list-china][v2ray-domain-list-china] <sup>AUR</sup>
 - [visual-studio-code-bin][visual-studio-code-bin] <sup>AUR</sup>
 
-[akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
 [dofi-manager]: https://aur.archlinux.org/packages/dofi-manager/
 [fish-git]: https://aur.archlinux.org/packages/fish-git/
 [google-chrome]: https://aur.archlinux.org/packages/google-chrome/
@@ -60,10 +58,12 @@ The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo
 
 **These packages haven't binary build, for archive only.**
 
+- [akwaita-theme-git][akwaita-theme-git] <sup>AUR</sup>
 - [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
 - [mpv-handler-git][mpv-handler-git] <sup>AUR</sup>
 - [paru-git][paru-git] <sup>AUR</sup>
 
+[akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
 [dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
 [mpv-handler-git]: https://aur.archlinux.org/packages/mpv-handler-git/
 [paru-git]: https://aur.archlinux.org/packages/paru-git/
