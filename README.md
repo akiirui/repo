@@ -4,30 +4,31 @@ This repository include some **AUR packages** and some packages **with custom pa
 
 All packages build for `[testing]`, ensure enabled `[testing]`.
 
-(This GitHub repo not include PKGBUILD of AUR packages)
+_This GitHub repo isn't include AUR PKGBUILDs except my packages._
 
 ### Usage
 
-Add repo to your `pacman.conf`:
+1. Add repo to your `pacman.conf`:
 
-```
-[akatsuki]
-Server = https://repo.akii.art/$arch
-```
+   ```
+   [akatsuki]
+   Server = https://repo.akii.art/$arch
+   ```
 
-And add PGP key ([ArchWiki: Adding unofficial keys][archwiki]:
+2. [Add PGP key][archwiki]:
 
-- `0x94E976626C884E53`
+   - `0x94E976626C884E53`
 
-The PGP key file also can find on [GitHub][key-github] and [Repository][key-repo].
+   The PGP key file can find on [GitHub][key-github] and [Repository][key-repo].
+
+[archwiki]: https://wiki.archlinux.org/index.php/Pacman/Package_signing#Adding_unofficial_keys
+[key-github]: https://github.com/akiirui/repo/blob/main/akatsuki.pub
+[key-repo]: https://repo.akii.ml/akatsuki.pub
 
 ### Troubleshooting
 
 - Please contact me via [issues][issues].
 
-[archwiki]: https://wiki.archlinux.org/index.php/Pacman/Package_signing#Adding_unofficial_keys
-[key-github]: https://github.com/akiirui/repo/blob/main/akatsuki.pub
-[key-repo]: https://repo.akii.ml/akatsuki.pub
 [issues]: https://github.com/akiirui/repo/issues/new
 
 ---
