@@ -12,7 +12,7 @@
 	url = ssh://aur@aur.archlinux.org/v2ray-domain-list-china.git
 [submodule "mpv-handler"]
 	path = mpv-handler
-	url = https://aur.archlinux.org/mpv-handler.git
+	url = ssh://aur@aur.archlinux.org/mpv-handler.git
 [submodule "dofi-manager"]
 	path = dofi-manager
-	url = https://aur.archlinux.org/dofi-manager.git
+	url = ssh://aur@aur.archlinux.org/dofi-manager.git
