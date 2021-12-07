@@ -16,3 +16,6 @@
 [submodule "dofi-manager"]
 	path = dofi-manager
 	url = ssh://aur@aur.archlinux.org/dofi-manager.git
+[submodule "v2ray-geoip-lite"]
+	path = v2ray-geoip-lite
+	url = ssh://aur@aur.archlinux.org/v2ray-geoip-lite.git
