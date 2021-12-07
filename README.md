@@ -41,6 +41,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 - [paru][paru] <sup>AUR</sup>
 - [ttf-paratype][ttf-paratype] : Replace [AUR/ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/), remove fontconfig conf file.
 - [v2ray-domain-list-china][v2ray-domain-list-china] <sup>AUR</sup>
+- [v2ray-geoip-lite][v2ray-geoip-lite] <sup>AUR</sup>
 
 [dofi-manager]: https://aur.archlinux.org/packages/dofi-manager/
 [fish-git]: https://aur.archlinux.org/packages/fish-git/
@@ -48,6 +49,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 [paru]: https://aur.archlinux.org/packages/paru/
 [ttf-paratype]: https://github.com/akiirui/repo/tree/main/ttf-paratype
 [v2ray-domain-list-china]: https://aur.archlinux.org/packages/v2ray-domain-list-china/
+[v2ray-geoip-lite]: https://aur.archlinux.org/packages/v2ray-geoip-lite/
 
 ---
 
