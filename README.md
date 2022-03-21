@@ -12,7 +12,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 
    ```
    [akatsuki]
-   Server = https://repo.akii.art/$arch
+   Server = https://repo.akii.work/$arch
    ```
 
 2. [Add PGP key][archwiki]:
