@@ -16,3 +16,6 @@
 [submodule "dofi-manager"]
 	path = dofi-manager
 	url = ssh://aur@aur.archlinux.org/dofi-manager.git
+[submodule "fish-git"]
+	path = fish-git
+	url = ssh://aur@aur.archlinux.org/fish-git.git
