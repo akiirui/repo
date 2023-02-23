@@ -57,12 +57,11 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 
 ### Devel Packages
 
-**These packages haven't binary build, for archive only.**
+**These packages haven't binary build.**
 
 - [akwaita-theme-git][akwaita-theme-git] <sup>AUR</sup>
 - [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
 - [mpv-handler-git][mpv-handler-git] <sup>AUR</sup>
-- [paru-git][paru-git] <sup>AUR</sup>
 
 [akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
 [dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
@@ -73,7 +72,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 
 ### Archived Packages
 
-**These packages not update anymore, for archive only.**
+**These packages not update anymore.**
 
 - [flat-remix-gnome][flat-remix-gnome]: Replace [AUR/flat-remix-gnome](https://aur.archlinux.org/packages/flat-remix-gnome/)
 
