@@ -39,7 +39,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 - [fish-git][fish-git] <sup>AUR</sup>
 - [gnome-browser-connector][gnome-browser-connector] <sup>AUR</sup>
 - [mpv-handler][mpv-handler] <sup>AUR</sup>
-- [paru][paru] <sup>AUR</sup>
+- [paru-git][paru-git] <sup>AUR</sup>
 - [systemd-oomd-defaults][systemd-oomd-defaults] <sup>AUR</sup>
 - [ttf-paratype][ttf-paratype] : Replace [AUR/ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/), remove fontconfig conf file.
 - [v2ray-domain-list-china][v2ray-domain-list-china] <sup>AUR</sup>
@@ -48,7 +48,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 [fish-git]: https://aur.archlinux.org/packages/fish-git
 [gnome-browser-connector]: https://aur.archlinux.org/packages/gnome-browser-connector
 [mpv-handler]: https://aur.archlinux.org/packages/mpv-handler
-[paru]: https://aur.archlinux.org/packages/paru
+[paru-git]: https://aur.archlinux.org/packages/paru-git/
 [systemd-oomd-defaults]: https://aur.archlinux.org/packages/systemd-oomd-defaults
 [ttf-paratype]: https://github.com/akiirui/repo/tree/main/ttf-paratype
 [v2ray-domain-list-china]: https://aur.archlinux.org/packages/v2ray-domain-list-china
@@ -66,7 +66,6 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 [akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
 [dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
 [mpv-handler-git]: https://aur.archlinux.org/packages/mpv-handler-git/
-[paru-git]: https://aur.archlinux.org/packages/paru-git/
 
 ---
 
