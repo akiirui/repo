@@ -2,7 +2,7 @@
 
 This repository include some **AUR packages** and some packages **with custom patches**.
 
-All packages build for `[testing]`, ensure enabled `[testing]`.
+All packages are built based on `[core-testing]` & `[extra-testing]`, make sure these repositories are enabled.
 
 _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 
