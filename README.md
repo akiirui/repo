@@ -36,7 +36,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 ### Packages
 
 - [dofi-manager][dofi-manager] <sup>AUR</sup>
-- [gnome-browser-connector][gnome-browser-connector] <sup>AUR</sup>
+- [fish-git][fish-git] <sup>AUR</sup>
 - [mpv-handler][mpv-handler] <sup>AUR</sup>
 - [paru-git][paru-git] <sup>AUR</sup>
 - [ttf-paratype][ttf-paratype] : Replace [AUR/ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/), remove fontconfig conf file.
@@ -44,7 +44,7 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 - [xcursor-breeze-git][xcursor-breeze-git] <sup>AUR</sup>
 
 [dofi-manager]: https://aur.archlinux.org/packages/dofi-manager
-[gnome-browser-connector]: https://aur.archlinux.org/packages/gnome-browser-connector
+[fish-git]: https://aur.archlinux.org/packages/fish-git
 [mpv-handler]: https://aur.archlinux.org/packages/mpv-handler
 [paru-git]: https://aur.archlinux.org/packages/paru-git/
 [ttf-paratype]: https://github.com/akiirui/repo/tree/main/ttf-paratype
