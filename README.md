@@ -36,23 +36,14 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 ### Packages
 
 - [dofi-manager][dofi-manager] <sup>AUR</sup>
-- [fish-git][fish-git] <sup>AUR</sup>
 - [mpv-handler][mpv-handler] <sup>AUR</sup>
-- [paru-git][paru-git] <sup>AUR</sup>
 - [ttf-paratype][ttf-paratype] : Replace [AUR/ttf-paratype](https://aur.archlinux.org/packages/ttf-paratype/), remove fontconfig conf file.
 - [v2ray-domain-list-china][v2ray-domain-list-china] <sup>AUR</sup>
-- [xcursor-breeze-git][xcursor-breeze-git] <sup>AUR</sup>
 
 [dofi-manager]: https://aur.archlinux.org/packages/dofi-manager
-[fish-git]: https://aur.archlinux.org/packages/fish-git
 [mpv-handler]: https://aur.archlinux.org/packages/mpv-handler
-[paru-git]: https://aur.archlinux.org/packages/paru-git/
 [ttf-paratype]: https://github.com/akiirui/repo/tree/main/ttf-paratype
 [v2ray-domain-list-china]: https://aur.archlinux.org/packages/v2ray-domain-list-china
-[xcursor-breeze-git]: https://aur.archlinux.org/packages/xcursor-breeze-git
-
-<!-- - [fish-git][fish-git] <sup>AUR</sup> -->
-<!-- [fish-git]: https://aur.archlinux.org/packages/fish-git -->
 
 ---
 
@@ -62,10 +53,12 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 
 - [akwaita-theme-git][akwaita-theme-git] <sup>AUR</sup>
 - [dofi-manager-git][dofi-manager-git] <sup>AUR</sup>
+- [fish-git][fish-git] <sup>AUR</sup>
 - [mpv-handler-git][mpv-handler-git] <sup>AUR</sup>
 
 [akwaita-theme-git]: https://aur.archlinux.org/packages/akwaita-theme-git/
 [dofi-manager-git]: https://aur.archlinux.org/packages/dofi-manager-git/
+[fish-git]: https://aur.archlinux.org/packages/fish-git
 [mpv-handler-git]: https://aur.archlinux.org/packages/mpv-handler-git/
 
 ---
