@@ -19,11 +19,10 @@ _This GitHub repo isn't include AUR PKGBUILDs except my packages._
 
    - `0x94E976626C884E53`
 
-   The PGP key file can find on [GitHub][key-github] and [Repository][key-repo].
+   The PGP key file can find on [GitHub][key-github].
 
 [archwiki]: https://wiki.archlinux.org/index.php/Pacman/Package_signing#Adding_unofficial_keys
-[key-github]: https://github.com/akiirui/repo/blob/main/akatsuki.pub
-[key-repo]: https://repo.akii.ml/akatsuki.pub
+[key-github]: https://github.com/akiirui.gpg
 
 ### Troubleshooting
 
