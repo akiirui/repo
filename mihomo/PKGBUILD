@@ -17,8 +17,8 @@ source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz
         "${pkgname}@.service"
         "config.yaml")
 sha256sums=('65a0979c8223608808167dddb39571676e8ca5d907c20f57244aae1d595387c4'
-            '5f243e40d0b6d3d0ae999b28593d5224f1c90cead82e2aacb7b54ff1a7f48214'
-            'e7a418858d16c92143051e3e9fa3bd63247931000cbf0d945fdf0a3785f5de06'
+            '3eea53645fad3bd42527d67b21d4a9bf1a3e6be44419eb6391870bff53c0e359'
+            'e0ed75022fd8567f9a97932ed05a84a65f548e0629389c9fb6873c94bea0a57d'
             '90f7fdacecd5928e37865b4f841517f925c8bedc769f16f7a7a1e89b923f1fb9')
 
 build(){

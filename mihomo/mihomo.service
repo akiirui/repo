@@ -9,7 +9,6 @@ CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_RAW CAP_NET_BIND_SERVICE CAP_SYS_TIM
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_RAW CAP_NET_BIND_SERVICE CAP_SYS_TIME CAP_SYS_PTRACE CAP_DAC_READ_SEARCH CAP_DAC_OVERRIDE
 DynamicUser=yes
 CacheDirectory=mihomo
-CacheDirectoryMode=755
 LoadCredential=config.yaml:/etc/mihomo/config.yaml
 ExecStart=/usr/bin/mihomo -f ${CREDENTIALS_DIRECTORY}/config.yaml -d ${CACHE_DIRECTORY}
 ExecReload=/bin/kill -HUP $MAINPID
