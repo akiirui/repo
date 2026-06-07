@@ -1,7 +1,7 @@
 # Maintainer: Akatsuki Rui <aur@akii.work>
 
 pkgname=mihomo
-pkgver=1.19.26
+pkgver=1.19.27
 pkgrel=1
 pkgdesc="Another Clash Kernel by MetaCubeX, formerly known as Clash.Meta"
 arch=("x86_64" 'aarch64')
@@ -16,7 +16,7 @@ source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz
         "${pkgname}.service"
         "${pkgname}@.service"
         "config.yaml")
-sha256sums=('c8e4a970bdf76aad9987ae42650c47c4ca1670413f557609b43ae8fc47759480'
+sha256sums=('5d90ebe9057b2d996ba4bae237f4a277101d72a923117b4ae0dd97d0c7dc584f'
             '3eea53645fad3bd42527d67b21d4a9bf1a3e6be44419eb6391870bff53c0e359'
             'e0ed75022fd8567f9a97932ed05a84a65f548e0629389c9fb6873c94bea0a57d'
             '90f7fdacecd5928e37865b4f841517f925c8bedc769f16f7a7a1e89b923f1fb9')
